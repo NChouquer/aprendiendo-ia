@@ -21,6 +21,7 @@
     "cors": "^2.8.3",
     "debug": "^2.6.3",
     "express": "^4.15.2",
+    "gh-pages": "^4.0.0",
     "node-sass": "^7.0.1",
     "react": "^18.1.0",
     "react-collapse": "^5.1.1",
@@ -36,6 +37,8 @@
     "sass": "^1.51.0"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "release": "standard-version",
     "start": "react-scripts start",
     "start-server": "bin/server.sh",
@@ -43,5 +46,5 @@
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
   },
-  "homepage": "https://nchouquer.github.io/aprendiendo-ia",
+  "homepage": "https://nchouquer.github.io/aprendiendo-ia"
 }
