@@ -1,0 +1,52 @@
+.page{
+  display: grid; 
+  grid-template-columns: 25% 75fr; 
+  grid-template-rows: 20vh 1fr; 
+  gap: 16px 0px; 
+  grid-template-areas: 
+    ". ."
+    ". ."; 
+}
+.page-content{
+  font-family:'Arial Normal', 'Arial', sans-serif;
+  padding: 16px;
+  padding-left: 64px;
+  width: 75%;
+  grid-column: 2 / span 1;
+  grid-row: 2 / span 1;
+}
+
+.page-section{
+  font-size: 18px;
+  margin-bottom: 3em;
+  text-align: justify;
+}
+
+.page-section p{
+  margin-bottom: 2em;
+}
+
+.page-section a{
+  text-decoration: none;
+  color: #02A7F0;
+}
+
+.page-section a:hover{
+  text-decoration: underline;
+}
+
+.page-img{
+  
+}
+
+.page-slideshow{
+  
+}
+
+.simulator{
+  padding-left: 48px;
+}
+
+.collapsible{
+  margin-top: 64px;
+}

@@ -1,0 +1,41 @@
+.sidenav {
+  height: 100%;
+  width: 100%;
+  background-color: #111;
+  overflow-x: hidden;
+  font-family:'Arial Normal', 'Arial', sans-serif;
+  color: #F2F2F2;
+  padding: 0px;
+  grid-column: 1 / span 1;
+  grid-row: 2 / span 1;
+}
+.sidenav h3{
+  text-align: center;
+}
+.sidenav-ul{
+  list-style-type:none;
+  margin-left: 0;
+  margin-top: 10px;
+  margin-bottom:10px;
+  padding-left: 10px;
+}
+.sidenav-item{
+  color: #F2F2F2;
+  text-decoration: none;
+}
+
+.sidenav-item:hover{
+  color: #02A7F0;
+  
+}
+
+.sidenav-subitem{
+  margin:16px;
+  color: #F2F2F2;
+  text-decoration: none;
+  display: block;
+}
+
+.sidenav-subitem:hover{
+  color: #02A7F0;
+}

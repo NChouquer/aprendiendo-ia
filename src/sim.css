@@ -1,0 +1,81 @@
+
+:root{
+
+  --color-default: rgba(255,255,255,1);
+  --color-blocked: rgba(0,0,0,1);
+  --color-queued: rgba(0,0,255,0.5);
+  --color-explored: rgba(0,255,0,0.5);
+  --color-path: rgba(255,0,0,0.5);
+
+  --tile-size: 32px;
+  --cols: 12;
+  --rows: 12;
+
+
+}
+
+
+.tile {
+  border: 1px solid #999;
+  float: left;
+  font-size: 10px;
+  font-weight: bold;
+  height: var(--tile-size);
+  width: var(--tile-size);
+  margin-right: -1px;
+  margin-top: -1px;
+  padding: 0;
+  text-align: center;
+}
+
+.color-default{
+  background-color: var(--color-default);
+}
+
+.color-blocked{
+  background-color: var(--color-blocked);
+}
+
+.color-queued{
+  background-color: var(--color-queued);
+}
+
+.color-explored{
+  background-color: var(--color-explored);
+}
+
+.color-path{
+  background-color: var(--color-path);
+}
+
+.board{
+  display: grid;
+  grid-template-columns: repeat(var(--cols), var(--tile-size));
+  grid-gap: 0;
+  align-self: flex-start;
+  grid-area: c;
+}
+
+
+.sim-sidebar{
+  grid-area: r;
+
+}
+
+.sim-sidebar-button{
+
+}
+
+.sim{
+  --col-side: calc(var(--tile-size) * 4);
+  --col-center: calc(var(--tile-size) * var(--cols));
+  --board-height: calc(var(--tile-size)*var(--rows));
+
+  width: calc(var(--tile-size) * (2*var(--col-side)+var(--col-center)+2));
+  margin: auto;
+  display: grid;
+  grid-template-areas: "h h h"
+                       "l c r"
+                       ". b .";
+
+}
