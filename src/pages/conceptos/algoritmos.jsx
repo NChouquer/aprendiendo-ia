@@ -8,7 +8,7 @@ import { Slideshow } from "../../slideshow.js"
 import '../../css/page.css'
 import placeholder from '../../assets/images/placeholder.png'
 
-class Algoritmos extends React.Component {
+export default class Algoritmos extends React.Component {
 
   render() {
     return (
@@ -32,4 +32,4 @@ function mapStateToProps (state) {
   return state;
 }
 
-export default connect(mapStateToProps)(Algoritmos)
+//export default connect(mapStateToProps)(Algoritmos)

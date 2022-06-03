@@ -8,7 +8,7 @@ import { Slideshow } from "../../slideshow.js"
 import '../../css/page.css'
 import placeholder from '../../assets/images/placeholder.png'
 
-class Heuristicas extends React.Component {
+export default class Heuristicas extends React.Component {
 
   render() {
     return (
@@ -61,4 +61,4 @@ function mapStateToProps (state) {
   return state;
 }
 
-export default connect(mapStateToProps)(Heuristicas)
+//export default connect(mapStateToProps)(Heuristicas)

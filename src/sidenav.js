@@ -8,7 +8,7 @@ export class Sidenav extends React.Component{
 			<div className="sidenav">
 			  <h3 className="sidenav-title">Contenidos</h3>
 			  <ul className="sidenav-ul">
-			  <li><a href="#" className="sidenav-item">Conceptos Básicos</a>
+			  <li><a href="/" className="sidenav-item">Conceptos Básicos</a>
 			    <ul className="sidenav-ul">
 			    <li><a href="/conceptos/inteligencia-artificial" className="sidenav-subitem">Inteligencia Artificial</a></li>
 			    <li><a href="/conceptos/algoritmos" className="sidenav-subitem">Algoritmos</a></li>

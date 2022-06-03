@@ -8,7 +8,7 @@ import { Slideshow } from "../../slideshow.js"
 import '../../css/page.css'
 import placeholder from '../../assets/images/placeholder.png'
 
-class Grafos extends React.Component {
+export default class Grafos extends React.Component {
 
   render() {
     return (
@@ -61,9 +61,9 @@ class Grafos extends React.Component {
         <h2>Tipos de grafos</h2>
         <p>Para poder representar ciertos tipos de problemas de forma más apropiada, existen varios tipos de grafos con características especiales. Algunos de los más comunes son:</p>
         <ul>
-          <li><a href="#">Grafos dirigidos</a> o <em>digrafos</em>, cuyas aristas representan una conexión que solamente tiene 1 dirección.</li>
-          <li><a href="#">Grafos con peso</a>, donde cada arista tiene un valor, llamado peso, que representa alguna información sobre la conexión.</li>
-          <li><a href="#">Árboles</a>, grafos que tienen 1 nodo raíz y una estructura jerárquica, como las ramas de un árbol.</li>
+          <li><a href="/">Grafos dirigidos</a> o <em>digrafos</em>, cuyas aristas representan una conexión que solamente tiene 1 dirección.</li>
+          <li><a href="/">Grafos con peso</a>, donde cada arista tiene un valor, llamado peso, que representa alguna información sobre la conexión.</li>
+          <li><a href="/">Árboles</a>, grafos que tienen 1 nodo raíz y una estructura jerárquica, como las ramas de un árbol.</li>
         </ul>
       </div>
       
@@ -78,4 +78,4 @@ function mapStateToProps (state) {
   return state;
 }
 
-export default connect(mapStateToProps)(Grafos)
+//export default connect(mapStateToProps)(Grafos)

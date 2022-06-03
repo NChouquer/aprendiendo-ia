@@ -8,7 +8,7 @@ import { Slideshow } from "../../slideshow.js"
 import '../../css/page.css'
 import placeholder from '../../assets/images/placeholder.png'
 
-class InteligenciaArtificial extends React.Component {
+export default class InteligenciaArtificial extends React.Component {
 
   render() {
     return (
@@ -21,7 +21,7 @@ class InteligenciaArtificial extends React.Component {
       <div className="page-section">
       </div>
       
-      <Footer prevName="" prevURL="#" nextName="Algoritmos" nextURL="/conceptos/algoritmos"/>
+      <Footer prevName="" prevURL="/" nextName="Algoritmos" nextURL="/conceptos/algoritmos"/>
     </div>
     </div>
     );
@@ -32,4 +32,4 @@ function mapStateToProps (state) {
   return state;
 }
 
-export default connect(mapStateToProps)(InteligenciaArtificial)
+//export default connect(mapStateToProps)(InteligenciaArtificial)

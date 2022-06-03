@@ -10,7 +10,7 @@ import bfs1 from '../assets/images/bfs_1.png'
 import bfs2 from '../assets/images/bfs_2.png'
 import placeholder from '../assets/images/placeholder.png'
 
-class BusquedaGreedy extends React.Component {
+export default class BusquedaGreedy extends React.Component {
 
   render() {
     return (
@@ -28,7 +28,7 @@ class BusquedaGreedy extends React.Component {
 
       <div className="page-section">
         <h2>¿Qué es la Búsqueda Greedy?</h2>
-        <p>En la búsqueda Greedy, el siguiente paso a tomar siempre será el que parece más conveniente en el momento, es decir el que nos deje a menor distancia de la meta, pero sin tomar en cuenta que ese camino podría volverse generalmente menos bueno más adelante. Se utiliza una <a href="#">heurística</a> para determinar qué determina el estado más “conveniente” para ese problema en particular.</p>
+        <p>En la búsqueda Greedy, el siguiente paso a tomar siempre será el que parece más conveniente en el momento, es decir el que nos deje a menor distancia de la meta, pero sin tomar en cuenta que ese camino podría volverse generalmente menos bueno más adelante. Se utiliza una <a href="/conceptos/heuristicas">heurística</a> para determinar qué determina el estado más “conveniente” para ese problema en particular.</p>
       </div>
 
       <div className="page-section">
@@ -50,7 +50,7 @@ class BusquedaGreedy extends React.Component {
         <h2>Ejemplos</h2>
         <h3>Navegar un mapa</h3>
         <div className="simulator">
-          <iframe src="https://nchouquer.github.io/pathfinding-sim/" width="600" height="400"></iframe>
+          <iframe src="https://nchouquer.github.io/pathfinding-informada/" width="600" height="400"></iframe>
         </div>
         <DropdownItem title="Explicación del problema" theme="light">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus
@@ -74,4 +74,4 @@ function mapStateToProps (state) {
   return state
 }
 
-export default connect(mapStateToProps)(BusquedaGreedy)
+//export default connect(mapStateToProps)(BusquedaGreedy)

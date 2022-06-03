@@ -10,7 +10,7 @@ import bfs1 from '../assets/images/bfs_1.png'
 import bfs2 from '../assets/images/bfs_2.png'
 import placeholder from '../assets/images/placeholder.png'
 
-class BusquedaA extends React.Component {
+export default class BusquedaA extends React.Component {
 
   render() {
     return (
@@ -52,7 +52,7 @@ class BusquedaA extends React.Component {
         <h2>Ejemplos</h2>
         <h3>Navegar un mapa</h3>
         <div className="simulator">
-          <iframe src="https://nchouquer.github.io/pathfinding-sim/" width="600" height="400"></iframe>
+          <iframe src="https://nchouquer.github.io/pathfinding-informada/" width="600" height="400"></iframe>
         </div>
         <DropdownItem title="Explicación del problema" theme="light">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus
@@ -76,4 +76,4 @@ function mapStateToProps (state) {
   return state
 }
 
-export default connect(mapStateToProps)(BusquedaA)
+//export default connect(mapStateToProps)(BusquedaA)

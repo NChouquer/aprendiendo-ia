@@ -8,7 +8,7 @@ import { Slideshow } from "../../slideshow.js"
 import '../../css/page.css'
 import placeholder from '../../assets/images/placeholder.png'
 
-class GrafosDirigidos extends React.Component {
+export default class GrafosDirigidos extends React.Component {
 
   render() {
     return (
@@ -47,4 +47,4 @@ function mapStateToProps (state) {
   return state;
 }
 
-export default connect(mapStateToProps)(GrafosDirigidos)
+//export default connect(mapStateToProps)(GrafosDirigidos)

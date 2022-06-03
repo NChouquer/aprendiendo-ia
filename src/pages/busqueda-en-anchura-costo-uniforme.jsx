@@ -8,7 +8,7 @@ import {Footer} from "../footer.jsx"
 import '../css/page.css'
 import placeholder from '../assets/images/placeholder.png'
 
-class BusquedaEnAnchuraCostoUniforme extends React.Component {
+export default class BusquedaEnAnchuraCostoUniforme extends React.Component {
 
   render() {
     return (
@@ -29,4 +29,4 @@ function mapStateToProps (state) {
   return state
 }
 
-export default connect(mapStateToProps)(BusquedaEnAnchuraCostoUniforme)
+//export default connect(mapStateToProps)(BusquedaEnAnchuraCostoUniforme)

@@ -11,7 +11,7 @@ import bfs2 from '../assets/images/bfs_2.png'
 import bfs3 from '../assets/images/bfs_3.png'
 import placeholder from '../assets/images/placeholder.png'
 
-class BusquedaEnAnchura extends React.Component {
+export default class BusquedaEnAnchura extends React.Component {
 
   render() {
     return (
@@ -80,4 +80,4 @@ function mapStateToProps (state) {
   return state
 }
 
-export default connect(mapStateToProps)(BusquedaEnAnchura)
+//export default connect(mapStateToProps)(BusquedaEnAnchura)

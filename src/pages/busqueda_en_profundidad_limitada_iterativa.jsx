@@ -10,7 +10,7 @@ import bfs1 from '../assets/images/bfs_1.png'
 import bfs2 from '../assets/images/bfs_2.png'
 import placeholder from '../assets/images/placeholder.png'
 
-class BusquedaEnProfundidadLimIt extends React.Component {
+export default class BusquedaEnProfundidadLimIt extends React.Component {
 
   render() {
     return (
@@ -74,4 +74,4 @@ function mapStateToProps (state) {
   return state
 }
 
-export default connect(mapStateToProps)(BusquedaEnProfundidadLimIt)
+//export default connect(mapStateToProps)(BusquedaEnProfundidadLimIt)
