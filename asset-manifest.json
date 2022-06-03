@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/aprendiendo-ia/static/css/main.1d343455.css",
-    "main.js": "/aprendiendo-ia/static/js/main.2f137196.js",
+    "main.js": "/aprendiendo-ia/static/js/main.ac4fcbde.js",
     "static/media/bfs_3.png": "/aprendiendo-ia/static/media/bfs_3.99b3b079065ffb84e8c6.png",
     "static/media/bfs_2.png": "/aprendiendo-ia/static/media/bfs_2.29de9ecf5440f5a1767e.png",
     "static/media/bfs_1.png": "/aprendiendo-ia/static/media/bfs_1.d4e5a7f31991c26ef3b0.png",
     "index.html": "/aprendiendo-ia/index.html",
     "main.1d343455.css.map": "/aprendiendo-ia/static/css/main.1d343455.css.map",
-    "main.2f137196.js.map": "/aprendiendo-ia/static/js/main.2f137196.js.map"
+    "main.ac4fcbde.js.map": "/aprendiendo-ia/static/js/main.ac4fcbde.js.map"
   },
   "entrypoints": [
     "static/css/main.1d343455.css",
-    "static/js/main.2f137196.js"
+    "static/js/main.ac4fcbde.js"
   ]
 }
