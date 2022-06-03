@@ -22,7 +22,7 @@ const App = () => {
   return (
     <Router basename="/aprendiendo-ia/">
         <Routes>
-        <Route path="/aprendiendo-ia/" element={<BusquedaEnAnchura/>} />
+        <Route path="/" element={<BusquedaEnAnchura/>} />
         <Route path="/aprendiendo-ia/conceptos/inteligencia-artificial" element={<InteligenciaArtificial/>} />
         <Route path="/aprendiendo-ia/conceptos/algoritmos" element={<Algoritmos/>} />
         <Route path="/aprendiendo-ia/conceptos/grafos" element={<Grafos/>} />
