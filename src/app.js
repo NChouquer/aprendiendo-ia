@@ -23,23 +23,23 @@ const App = () => {
     <Router basename="/aprendiendo-ia/">
         <Routes>
         <Route path="/" element={<BusquedaEnAnchura/>} />
-        <Route path="/aprendiendo-ia/conceptos/inteligencia-artificial" element={<InteligenciaArtificial/>} />
-        <Route path="/aprendiendo-ia/conceptos/algoritmos" element={<Algoritmos/>} />
-        <Route path="/aprendiendo-ia/conceptos/grafos" element={<Grafos/>} />
-        <Route path="/aprendiendo-ia/conceptos/grafos-no-dirigidos" element={<GrafosNoDirigidos/>} />
-        <Route path="/aprendiendo-ia/conceptos/grafos-dirigidos" element={<GrafosDirigidos/>} />
-        <Route path="/aprendiendo-ia/conceptos/arboles" element={<Arboles/>} />
-        <Route path="/aprendiendo-ia/conceptos/heuristicas" element={<Heuristicas/>} />
-        <Route path="/aprendiendo-ia/busqueda-no-informada" element={<BusquedaNoInformada/>} />
-        <Route path="/aprendiendo-ia/busqueda-en-anchura" element={<BusquedaEnAnchura/>} />
-        <Route path="/aprendiendo-ia/busqueda-en-anchura-costo-uniforme" element={<BusquedaEnAnchuraCostoUniforme/>} />
-        <Route path="/aprendiendo-ia/busqueda-en-profundidad" element={<BusquedaEnProfundidad/>} />
-        <Route path="/aprendiendo-ia/busqueda-en-profundidad-limitada" element={<BusquedaEnProfundidadLim/>} />
-        <Route path="/aprendiendo-ia/busqueda-en-profundidad-limitada-iterativa" element={<BusquedaEnProfundidadLimIt/>} />
-        <Route path="/aprendiendo-ia/busqueda-bidireccional" element={<BusquedaBidireccional/>} />
-        <Route path="/aprendiendo-ia/busqueda-informada" element={<BusquedaInformada/>} />
-        <Route path="/aprendiendo-ia/busqueda-greedy" element={<BusquedaGreedy/>} />
-        <Route path="/aprendiendo-ia/busqueda-a" element={<BusquedaA/>} />
+        <Route path="/conceptos/inteligencia-artificial" element={<InteligenciaArtificial/>} />
+        <Route path="/conceptos/algoritmos" element={<Algoritmos/>} />
+        <Route path="/conceptos/grafos" element={<Grafos/>} />
+        <Route path="/conceptos/grafos-no-dirigidos" element={<GrafosNoDirigidos/>} />
+        <Route path="/conceptos/grafos-dirigidos" element={<GrafosDirigidos/>} />
+        <Route path="/conceptos/arboles" element={<Arboles/>} />
+        <Route path="/conceptos/heuristicas" element={<Heuristicas/>} />
+        <Route path="/busqueda-no-informada" element={<BusquedaNoInformada/>} />
+        <Route path="/busqueda-en-anchura" element={<BusquedaEnAnchura/>} />
+        <Route path="/busqueda-en-anchura-costo-uniforme" element={<BusquedaEnAnchuraCostoUniforme/>} />
+        <Route path="/busqueda-en-profundidad" element={<BusquedaEnProfundidad/>} />
+        <Route path="/busqueda-en-profundidad-limitada" element={<BusquedaEnProfundidadLim/>} />
+        <Route path="/busqueda-en-profundidad-limitada-iterativa" element={<BusquedaEnProfundidadLimIt/>} />
+        <Route path="/busqueda-bidireccional" element={<BusquedaBidireccional/>} />
+        <Route path="/busqueda-informada" element={<BusquedaInformada/>} />
+        <Route path="/busqueda-greedy" element={<BusquedaGreedy/>} />
+        <Route path="/busqueda-a" element={<BusquedaA/>} />
         <Route element={<BusquedaEnAnchura/>} />
         </Routes>
     </Router>
