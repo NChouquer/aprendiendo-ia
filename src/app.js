@@ -1,5 +1,5 @@
 import React from 'react'
-import { BrowserRouter as Router, Route, Routes } from 'react-router-dom'
+import { HashRouter as Router, Route, Routes } from 'react-router-dom'
 import InteligenciaArtificial from './pages/conceptos/inteligencia-artificial'
 import Algoritmos from './pages/conceptos/algoritmos'
 import Grafos from './pages/conceptos/grafos'
@@ -22,24 +22,24 @@ const App = () => {
   return (
     <Router basename="/aprendiendo-ia">
         <Routes>
-        <Route path={'${process.env.PUBLIC_URL}/'} element={<BusquedaEnAnchura/>} />
-        <Route path={'${process.env.PUBLIC_URL}/conceptos/inteligencia-artificial'} element={<InteligenciaArtificial/>} />
-        <Route path={'${process.env.PUBLIC_URL}/conceptos/algoritmos'} element={<Algoritmos/>} />
-        <Route path={'${process.env.PUBLIC_URL}/conceptos/grafos'} element={<Grafos/>} />
-        <Route path={'${process.env.PUBLIC_URL}/conceptos/grafos-no-dirigidos'} element={<GrafosNoDirigidos/>} />
-        <Route path={'${process.env.PUBLIC_URL}/conceptos/grafos-dirigidos'} element={<GrafosDirigidos/>} />
-        <Route path={'${process.env.PUBLIC_URL}/conceptos/arboles'} element={<Arboles/>} />
-        <Route path={'${process.env.PUBLIC_URL}/conceptos/heuristicas'} element={<Heuristicas/>} />
-        <Route path={'${process.env.PUBLIC_URL}/busqueda-no-informada'} element={<BusquedaNoInformada/>} />
-        <Route path={'${process.env.PUBLIC_URL}/busqueda-en-anchura'} element={<BusquedaEnAnchura/>} />
-        <Route path={'${process.env.PUBLIC_URL}/busqueda-en-anchura-costo-uniforme'} element={<BusquedaEnAnchuraCostoUniforme/>} />
-        <Route path={'${process.env.PUBLIC_URL}/busqueda-en-profundidad'} element={<BusquedaEnProfundidad/>} />
-        <Route path={'${process.env.PUBLIC_URL}/busqueda-en-profundidad-limitada'} element={<BusquedaEnProfundidadLim/>} />
-        <Route path={'${process.env.PUBLIC_URL}/busqueda-en-profundidad-limitada-iterativa'} element={<BusquedaEnProfundidadLimIt/>} />
-        <Route path={'${process.env.PUBLIC_URL}/busqueda-bidireccional'} element={<BusquedaBidireccional/>} />
-        <Route path={'${process.env.PUBLIC_URL}/busqueda-informada'} element={<BusquedaInformada/>} />
-        <Route path={'${process.env.PUBLIC_URL}/busqueda-greedy'} element={<BusquedaGreedy/>} />
-        <Route path={'${process.env.PUBLIC_URL}/busqueda-a'} element={<BusquedaA/>} />
+        <Route path="/" element={<BusquedaEnAnchura/>} />
+        <Route path="/conceptos/inteligencia-artificial" element={<InteligenciaArtificial/>} />
+        <Route path="/conceptos/algoritmos" element={<Algoritmos/>} />
+        <Route path="/conceptos/grafos" element={<Grafos/>} />
+        <Route path="/conceptos/grafos-no-dirigidos" element={<GrafosNoDirigidos/>} />
+        <Route path="/conceptos/grafos-dirigidos" element={<GrafosDirigidos/>} />
+        <Route path="/conceptos/arboles" element={<Arboles/>} />
+        <Route path="/conceptos/heuristicas" element={<Heuristicas/>} />
+        <Route path="/busqueda-no-informada" element={<BusquedaNoInformada/>} />
+        <Route path="/busqueda-en-anchura" element={<BusquedaEnAnchura/>} />
+        <Route path="/busqueda-en-anchura-costo-uniforme" element={<BusquedaEnAnchuraCostoUniforme/>} />
+        <Route path="/busqueda-en-profundidad" element={<BusquedaEnProfundidad/>} />
+        <Route path="/busqueda-en-profundidad-limitada" element={<BusquedaEnProfundidadLim/>} />
+        <Route path="/busqueda-en-profundidad-limitada-iterativa" element={<BusquedaEnProfundidadLimIt/>} />
+        <Route path="/busqueda-bidireccional" element={<BusquedaBidireccional/>} />
+        <Route path="/busqueda-informada" element={<BusquedaInformada/>} />
+        <Route path="/busqueda-greedy" element={<BusquedaGreedy/>} />
+        <Route path="/busqueda-a" element={<BusquedaA/>} />
         <Route element={<BusquedaEnAnchura/>} />
         </Routes>
     </Router>

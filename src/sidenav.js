@@ -12,7 +12,7 @@ export class Sidenav extends React.Component{
 			    <ul className="sidenav-ul">
 			    <li><a href="/conceptos/inteligencia-artificial" className="sidenav-subitem">Inteligencia Artificial</a></li>
 			    <li><a href="/conceptos/algoritmos" className="sidenav-subitem">Algoritmos</a></li>
-			    <li><a href={'${process.env.PUBLIC_URL}/conceptos/grafos'} className="sidenav-subitem">Grafos</a>
+			    <li><a href="/conceptos/grafos" className="sidenav-subitem">Grafos</a>
 			    	<ul className="sidenav-ul">
 			    		<li><a href="/conceptos/grafos-no-dirigidos" className="sidenav-subitem">• Grafos no dirigidos</a></li>
 			    		<li><a href="/conceptos/grafos-dirigidos" className="sidenav-subitem">• Grafos dirigidos</a></li>
